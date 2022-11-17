@@ -9,7 +9,7 @@ import Users from './components/users';
 
 const App = () => {
   return (<> 
-  <aside className='col-md-3'>
+  <aside className='sidebar box-white col-md-3 me-2'>
       <Sidebar />
   </aside>
   <main className='col-md-9'>
@@ -19,7 +19,6 @@ const App = () => {
           <Route path='/users' element={<Users /> } />
       </Routes>
   </main>
-  
   </>)
 }
 export default App;

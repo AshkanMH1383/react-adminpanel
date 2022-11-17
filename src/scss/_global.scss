@@ -3,10 +3,11 @@
     list-style: none;
     font-family: $app-font;
 }
-
+a { text-decoration: none; color: black;}
 body {
     background-color:$app-background;
-    overflow-x: hidden;
+    overflow: hidden;
+    padding: 20px;
 }
 
 .box-white {
