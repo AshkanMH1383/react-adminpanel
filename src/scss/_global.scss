@@ -1,0 +1,15 @@
+* {
+    direction: $app-direction;
+    list-style: none;
+    font-family: $app-font;
+}
+
+body {
+    background-color:$app-background;
+    overflow-x: hidden;
+}
+
+.box-white {
+    background-color: white;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}

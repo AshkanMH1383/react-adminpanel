@@ -1,10 +1,25 @@
-function App() {
+import Sidebar from './components/global/Sidebar';
+import Topbar from './components/global/Topbar';
+import { Routes , Route } from 'react-router-dom';
+import './scss/app.scss';
+// import pages
+import Dashboard from './components/dashboard';
+import Users from './components/users';
 
-  return (
-    <div className="App">
-      <h1>Starting Project</h1>
-    </div>
-  )
+
+const App = () => {
+  return (<> 
+  <aside className='col-md-3'>
+      <Sidebar />
+  </aside>
+  <main className='col-md-9'>
+      <Topbar />
+      <Routes>
+          <Route path='/' element={<Dashboard /> } />
+          <Route path='/users' element={<Users /> } />
+      </Routes>
+  </main>
+  
+  </>)
 }
-
-export default App
+export default App;
