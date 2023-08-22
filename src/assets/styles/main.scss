@@ -1,0 +1,50 @@
+/* Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+    /* Fonts */
+    @font-face {
+        font-family: 'shabnam';
+        src: url('./../fonts/shabnam/Shabnam.ttf') format('truetype'),
+        url('./../fonts/shabnam/Shabnam.woff') format('woff');
+    }
+
+    @font-face {
+        font-family: 'shabnam';
+        font-weight: 100;
+        src: url('./../fonts/shabnam/Shabnam-Thin.ttf') format('truetype'),
+        url('./../fonts/shabnam/Shabnam-Thin.woff') format('woff');
+    }
+
+    @font-face {
+        font-family: 'shabnam';
+        font-weight: 900;
+        src: url('./../fonts/shabnam/Shabnam-Bold.ttf') format('truetype'),
+        url('./../fonts/shabnam/Shabnam-Bold.woff') format('woff');
+    }
+
+    @font-face {
+        font-family: 'shabnam-fd';
+        src: url('./../fonts/shabnam/farsi-digits/Shabnam.ttf') format('truetype'),
+        url('./../fonts/shabnam/farsi-digits/Shabnam.woff') format('woff');
+    }
+
+    @font-face {
+        font-family: 'shabnam-fd';
+        font-weight: 100;
+        src: url('./../fonts/shabnam/farsi-digits/Shabnam-Thin.ttf') format('truetype'),
+        url('./../fonts/shabnam/farsi-digits/Shabnam-Thin.woff') format('woff');
+    }
+
+    @font-face {
+        font-family: 'shabnam-fd';
+        font-weight: 900;
+        src: url('./../fonts/shabnam/farsi-digits/Shabnam-Bold.ttf') format('truetype'),
+        url('./../fonts/shabnam/farsi-digits/Shabnam-Bold.woff') format('woff');
+    }
+
+}
