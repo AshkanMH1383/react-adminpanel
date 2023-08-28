@@ -1,16 +1,17 @@
-import { Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router-dom'
 
-import Header           from '@/components/Header';
-import Footer           from '@/components/Footer';
-
-
+import { Sidebar, Footer, Topbar } from '@/components'
+import { Button } from '@material-tailwind/react'
 
 export default function MainLayout(): JSX.Element {
     return (
-        <>
-            <Header />
-            <Outlet/>
-            <Footer />
-        </>
+        <div className="flex">
+            <Sidebar />
+            <main className="w-full">
+                <Topbar />
+                <Outlet />
+                <Footer />
+            </main>
+        </div>
     )
 }
