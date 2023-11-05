@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'shabnam';
+    src:
+        url('@/assets/fonts/shabnam/Shabnam.ttf') format('truetype'),
+        url('@/assets/fonts/shabnam/Shabnam.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'shabnam';
+    font-weight: 100;
+    src:
+        url('@/assets/fonts/shabnam/Shabnam-Thin.ttf') format('truetype'),
+        url('@/assets/fonts/shabnam/Shabnam-Thin.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'shabnam';
+    font-weight: 900;
+    src:
+        url('@/assets/fonts/shabnam/Shabnam-Bold.ttf') format('truetype'),
+        url('@/assets/fonts/shabnam/Shabnam-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'shabnam-fd';
+    src:
+        url('@/assets/fonts/shabnam/farsi-digits/Shabnam.ttf')
+            format('truetype'),
+        url('@/assets/fonts/shabnam/farsi-digits/Shabnam.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'shabnam-fd';
+    font-weight: 100;
+    src:
+        url('@/assets/fonts/shabnam/farsi-digits/Shabnam-Thin.ttf')
+            format('truetype'),
+        url('@/assets/fonts/shabnam/farsi-digits/Shabnam-Thin.woff')
+            format('woff');
+}
+
+@font-face {
+    font-family: 'shabnam-fd';
+    font-weight: 900;
+    src:
+        url('@/assets/fonts/shabnam/farsi-digits/Shabnam-Bold.ttf')
+            format('truetype'),
+        url('@/assets/fonts/shabnam/farsi-digits/Shabnam-Bold.woff')
+            format('woff');
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(84, 84, 84);
+    border-radius: 10px;
+}
+
+/* .common-dashboard::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 240px;
+    background-color: #4356ff;
+    z-index: -1;
+}
+.common-dashboard .main-head .breadcrumb *,
+.common-dashboard .main-head h2 {
+    color: #fff;
+} */
